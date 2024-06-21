@@ -1,0 +1,75 @@
+.skills {
+  background-image: url(../assets/background.jpg); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  text-align: center;
+  color: #fff; /* Ensure text is visible on the background */
+}
+
+.skills h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills li {
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.skills li:hover {
+  transform: scale(1.05);
+}
+
+.image-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.815);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}

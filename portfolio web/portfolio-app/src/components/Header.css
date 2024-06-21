@@ -1,0 +1,84 @@
+.header {
+  background-color: black;
+  color: white;
+  top: 0;
+  padding: 10px;
+  z-index: 1000;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.two-nav {
+  display: flex;
+}
+
+.two-nav nav {
+  flex: 1;
+}
+
+.two-nav button {
+  margin-left: -150px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-family: monospace;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: all 0.2s ease;
+}
+
+button a:hover {
+  transform: translateZ(3px);
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+  color: black;
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header ul li {
+  display: inline-block;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.header ul li a:hover {
+  transform: translateZ(3px);
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+  color: black;
+}
+
+.header:hover {
+  background-color: rgb(19, 19, 19);
+  transition: all 0.3s ease;
+}

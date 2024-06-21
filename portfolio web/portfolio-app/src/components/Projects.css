@@ -1,0 +1,85 @@
+.projects {
+    background-color: #131313;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    color: #000000;
+    transition: color 0.3s;
+  }
+  
+  .project p {
+    font-size: 16px;
+    color: #000000;
+    transition: color 0.3s;
+  }
+  
+  .project a {
+    color: #000000;
+    transition: color 0.3s;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+    background-color: black;
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+    transition: all 0.4s ease;
+  }
+  
+  .project:hover h3,
+  .project:hover p,
+  .project:hover a {
+    color: #fff; /* Change text color to white on hover */
+  }
+  
+  .project-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project-links a {
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s;
+    font-size: 24px; /* Increase the font size of the icon */
+  }
+  
+  .project-links a:hover {
+    color: #0077b5; /* LinkedIn blue */
+  }
+  
+  .project-links a:last-child:hover {
+    color: #bd00c4; /* GitHub black */
+  }
+  
+  .icon {
+    font-size: 2em; /* Increase the font size of the icon using Font Awesome class */
+  }
+  

@@ -1,0 +1,36 @@
+/* CSS Reset or Normalize */
+
+/* Define CSS variables */
+:root {
+  --yellow-orange: #ffba08;
+  --dark-red: #370617;
+  --very-dark-background: #03071e;
+  --red-border: #d00000;
+}
+
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home,
+.about,
+.skills,
+.projects,
+.contact {
+  padding: 50px 20px;
+}
+
+/* Add media queries for responsive design */
+@media (max-width: 768px) {
+  /* Add styles for smaller screens */
+}
+
+@media (max-width: 480px) {
+  /* Add styles for even smaller screens */
+}

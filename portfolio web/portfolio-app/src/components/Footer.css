@@ -1,0 +1,28 @@
+.footer{
+    background-color: #131311;
+    color: white;
+    text-align: center;
+    background-image: url(../assets/background.jpg);
+    padding: 1px;
+}
+/* 
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0; 
+  }
+  
+  .footer p {
+    margin: 0; 
+  }
+  
+  .footer p a {
+    color: #ffc107; 
+    text-decoration: none; 
+  }
+  */
+  
+  .footer p:hover {
+    text-decoration: underline;
+  }
